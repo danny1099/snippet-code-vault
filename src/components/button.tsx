@@ -1,9 +1,9 @@
 "use client";
 import { toast } from "sonner";
-import { msg, useGT } from "gt-next";
+import { msg, useMessages } from "gt-next";
 
 export const Button = () => {
-  const m = useGT();
+  const m = useMessages();
 
   const randomMessage = [
     msg("Welcome to Code Vault"),

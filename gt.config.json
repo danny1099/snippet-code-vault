@@ -7,7 +7,7 @@
     "en"
   ],
     "gt": {
-      "output": "src/lib/i18n/lang/[locale].json"
+      "output": "./src/lib/i18n/lang/[locale].json"
     }
   
 }

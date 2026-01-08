@@ -6,14 +6,14 @@ export const Button = () => {
   const m = useGT();
 
   const randomMessage = [
-    "Welcome to Code Vault",
-    "Snippets made easy",
-    "Sharing is caring",
-    "Collaboration made simple",
-    "Productivity in the palm of your hand",
+    msg("Welcome to Code Vault"),
+    msg("Snippets made easy"),
+    msg("Sharing is caring"),
+    msg("Collaboration made simple"),
+    msg("Productivity in the palm of your hand"),
   ];
 
-  const message = msg(randomMessage[Math.floor(Math.random() * randomMessage.length)]);
+  const message = randomMessage[Math.floor(Math.random() * randomMessage.length)];
 
   return (
     <button

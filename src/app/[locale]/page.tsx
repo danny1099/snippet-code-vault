@@ -1,13 +1,6 @@
+import { Button } from "@/components/button";
+import { LocaleSelector, msg } from "gt-next";
 import { Tx } from "gt-next/server";
-import { LocaleSelector, msg, T } from "gt-next";
-
-const randomMessage = [
-  "Welcome to Code Vault",
-  "Snippets made easy",
-  "Sharing is caring",
-  "Collaboration made simple",
-  "Productivity in the palm of your hand",
-];
 
 export default async function Home() {
   return (
@@ -19,7 +12,7 @@ export default async function Home() {
           <p className="text-primary text-xs leading-6 tracking-tight">
             It is a modern platform for managing code snippets with social, collaborative, and productivity capabilities.
           </p>
-          <span>{msg(randomMessage[Math.floor(Math.random() * randomMessage.length)])}</span>
+          <Button />
         </Tx>
       </div>
     </main>

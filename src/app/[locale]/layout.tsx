@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { globalFont } from "@/config/fonts";
 import { I18nProvider } from "@/lib/providers";
+import { Toaster } from "sonner";
 import "@/globals.css";
 
 interface RootLayoutProps extends Children {
@@ -12,6 +13,7 @@ export default function RootLayout({ children }: Readonly<RootLayoutProps>) {
     <html lang="en">
       <body className={`${globalFont.className} antialiased`}>
         <I18nProvider>{children}</I18nProvider>
+        <Toaster position="top-right" />
       </body>
     </html>
   );

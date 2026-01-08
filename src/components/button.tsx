@@ -17,13 +17,11 @@ export const Button = () => {
   const message = randomMessage[Math.floor(Math.random() * randomMessage.length)];
 
   return (
-    <T>
-      <button
-        onClick={() => toast(m(message))}
-        className="bg-primary hover:bg-primary/80 rounded-md px-4 py-2 text-white transition-colors"
-      >
-        {m("Click me for a welcome message!")}
-      </button>
-    </T>
+    <button
+      onClick={() => toast(m(message))}
+      className="bg-primary hover:bg-primary/80 rounded-md px-4 py-2 text-white transition-colors"
+    >
+      <T> {m("Click me for a welcome message!")}</T>
+    </button>
   );
 };

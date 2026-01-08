@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npx gtx-cli translate && next build",
+    "build": "npx gtx-cli translate --publish && next build",
     "start": "next start",
     "lint": "eslint"
   },

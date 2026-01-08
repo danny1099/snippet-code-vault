@@ -1,0 +1,24 @@
+{
+  "d03169e59faa33ab": "Welcome to Code Vault",
+  "492aa70a3e7f9880": "Snippets made easy",
+  "cd41804539d75510": "Sharing is caring",
+  "c85177bdbee2d1df": "Collaboration made simple",
+  "a350c9c2c88a2535": "Productivity in the palm of your hand",
+  "05fbe54ebffb94e2": "Click me for a welcome message!",
+  "e0928be14582bb14": [
+    {
+      "t": "h1",
+      "i": 1,
+      "c": "Code Vault"
+    },
+    {
+      "t": "p",
+      "i": 2,
+      "c": "It is a modern platform for managing code snippets with social, collaborative, and productivity capabilities."
+    },
+    {
+      "t": "Button",
+      "i": 3
+    }
+  ]
+}

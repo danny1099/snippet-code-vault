@@ -1,5 +1,13 @@
 {
   "$schema": "https://assets.gtx.dev/config-schema.json",
   "defaultLocale": "en",
-  "locales": ["fr", "es"]
+  "locales": [
+    "fr",
+    "es",
+    "en"
+  ],
+    "gt": {
+      "output": "src/lib/i18n/lang/[locale].json"
+    }
+  
 }

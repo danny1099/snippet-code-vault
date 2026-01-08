@@ -6,4 +6,6 @@ const nextConfig: NextConfig = {
   reactCompiler: true,
 };
 
-export default withGTConfig(nextConfig);
+export default withGTConfig(nextConfig, {
+  loadTranslationsPath: "./src/lib/i18n/config/request.ts"
+});

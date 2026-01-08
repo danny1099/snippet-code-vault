@@ -1,0 +1,24 @@
+{
+  "d03169e59faa33ab": "Bienvenido a Code Vault",
+  "492aa70a3e7f9880": "Snippets hechos fáciles",
+  "cd41804539d75510": "Compartir es cuidar",
+  "c85177bdbee2d1df": "Colaboración simplificada",
+  "a350c9c2c88a2535": "Productividad en la palma de tu mano",
+  "05fbe54ebffb94e2": "¡Haz clic para un mensaje de bienvenida!",
+  "e0928be14582bb14": [
+    {
+      "t": "h1",
+      "i": 1,
+      "c": "Code Vault"
+    },
+    {
+      "t": "p",
+      "i": 2,
+      "c": "Es una plataforma moderna para gestionar fragmentos de código con capacidades sociales, colaborativas y de productividad."
+    },
+    {
+      "t": "Button",
+      "i": 3
+    }
+  ]
+}

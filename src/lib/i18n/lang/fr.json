@@ -1,0 +1,24 @@
+{
+  "d03169e59faa33ab": "Bienvenue chez Code Vault",
+  "492aa70a3e7f9880": "Les extraits de code simplifiés",
+  "cd41804539d75510": "Partager, c'est prendre soin",
+  "c85177bdbee2d1df": "La collaboration simplifiée",
+  "a350c9c2c88a2535": "La productivité au creux de votre main",
+  "05fbe54ebffb94e2": "Cliquez ici pour un message de bienvenue!",
+  "e0928be14582bb14": [
+    {
+      "t": "h1",
+      "i": 1,
+      "c": "Code Vault"
+    },
+    {
+      "t": "p",
+      "i": 2,
+      "c": "C'est une plateforme moderne pour gérer des extraits de code avec des capacités sociales, collaboratives et de productivité."
+    },
+    {
+      "t": "Button",
+      "i": 3
+    }
+  ]
+}
